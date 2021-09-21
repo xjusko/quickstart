@@ -15,7 +15,9 @@
     limitations under the License.
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1"%>
-
+<%@ taglib tagdir="/WEB-INF/tags" prefix="t" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core"
+           prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -33,11 +35,11 @@
             <!-- here we include the Registration Form in the template page
             using the jsp include directive
              -->
-            <%@ include file="registrationForm.jsp"%>
+            <%@ include file="test.jsp"%>
 
 
             <!-- Statically inculde the Registration result at compilation time -->
-            <%@ include file="registrationResult.jsp"%>
+
 
         </div>
         <div id="aside">
